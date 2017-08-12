@@ -33,8 +33,11 @@ body, html {
 	transform: translate(-50%, -50%);
 	color: whitesmoke;
 	font-family: 'Rock Salt', cursive;
+}
 
-
+a, a:link, a:visited {
+	text-decoration: none;
+	background: transparent;
 }
 
 h1 {
@@ -99,7 +102,6 @@ header.carousel .fill {
 
 /* contact div */
 #contact {
-	/* .hero-image grand canyon*/
 	background-image: url(http://gdurl.com/4b5S);
 	background-attachment: fixed;
 
@@ -120,4 +122,10 @@ header.carousel .fill {
 	text-align: left;
 	color: whitesmoke;
 	text-shadow: -2px 3px 14px darkred;
+
+}
+
+.list-inline {
+	text-decoration: none;
+	display: inline;
 }
