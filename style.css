@@ -1,9 +1,4 @@
 
-body, html {
-	height:100%;
-
-}
-
 .navbar {
 	font-family:"Quicksand", cursive;
 }
@@ -119,13 +114,12 @@ header.carousel .fill {
 	font-family: 'Quicksand', cursive;
 	padding-left: 40%;
 	padding-top: 10%;
-	text-align: left;
+	text-align: center;
+	font-size: 24px;
 	color: whitesmoke;
-	text-shadow: -2px 3px 14px darkred;
-
+	text-shadow: -2px 3px 14px black;
 }
 
-.list-inline {
-	text-decoration: none;
-	display: inline;
+#socialMediaBottom {
+	
 }
